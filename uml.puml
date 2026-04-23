@@ -1,0 +1,35 @@
+@startuml
+
+class Vehiculo {
+    # NumeroDeplaca: string
+    # TipoDemarca: String
+    # velocidadMaxima: double
+    + vehiculo()
+    + mover(): void
+    + calcularPeaje(): double
+    + toString()
+}
+
+class Carro {
+    - NumeroPuertas: int
+    + Carro()
+    + toString()
+}
+
+class Moto {
+    - tipo: String
+    + Moto()
+    + toString()
+}
+
+class Camion {
+    - capacidadCarga: double
+    + Camio()
+    + toString()
+}
+
+Vehiculo <|-- Carro
+Vehiculo <|-- Moto
+Vehiculo <|-- Camion
+
+@enduml
