@@ -1,1 +1,1 @@
-# codigosfundamentos
+# EJERCICIO6PUNTO2
